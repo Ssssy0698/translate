@@ -1,0 +1,70 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<link rel="icon" href="http://mt.utibet.edu.cn/favicon.ico" type="image/x-icon">
+
+    <title>ཉི་འོད་ཡིག་བསྒྱུར།  阳光藏汉机器翻译</title>
+    <meta http-equiv="keywords" content="阳光藏汉机器翻译">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  	<link rel="stylesheet" href="static/index_files/fanyi.css" type="text/css">
+  	<script type="text/javascript" src="static/index_files/fanyi.js"></script>
+  </head>
+  <body>
+   	<center>
+  	<!-- 头部 -->
+    <div class="p-top">
+
+    	<ul class="top-cnt">
+
+			<li id="logo"><a href="https://nmt.utibet.edu.cn"><img src="static/index_files/title-logo.jpg" height="78px"><img src="static/index_files/logo6.png" height="78px"></a></li>
+    		
+    		<li class="clear"></li>
+    	</ul>
+    </div>
+    
+    <!-- 中间内容部分 -->
+    <form action="/mt" id="fanyiform" method="post">
+    <div class="p-cnt">
+    	<p class="line-1">
+                <img src="static/index_files/font-hw.png" id="fontA">
+    		<a href="javascript:jiaohuan();"><img src="static/index_files/jiaohuan.png"></a>
+    		<img src="static/index_files/font-zw.png" id="fontB">    		
+    		<a href="javascript:tijiao();"><img src="static/index_files/btn-fy.png" style="margin-left: 62px;"></a>
+    	</p>
+    	<div class="line-2">
+    		<div class="font">
+    			<p><textarea class="txtarea" name="src" id="txt1" wrap="virtual"></textarea></p>
+    			<p id="zw">ཡིག་བསྒྱུར་བྱ་དགོས་པའི་ནང་དོན་འདིར་བླུགས་རོགས།</p>
+    			<p>请输入需要翻译的内容</p>	
+    		</div>
+    		<div class="jiantou"><img src="static/index_files/jiantou.png"></div>
+    		<div class="font">
+    			<p><textarea class="txtarea" name="tgt" readonly="readonly" id="txt2" wrap="virtual"></textarea></p>
+    			<p id="zw">ཡིག་སྒྱུར་མཇུག་འབྲས།</p>
+    			<p>翻译结果</p>
+    		</div>
+			<li class="clear"></li>
+    	</div>
+    </div>
+    <input type="hidden" name="lang" id="lang" value="ct">
+    </form>
+    
+    <!-- 底部 -->
+    <div class="footer" style="float:left;margin-left:33%;">
+		<div style="width:27%;float:left;">
+   			<p id="zw">བོད་ལྗོངས་སློབ་གྲྭ་ཆེན་མོའི་ཆ་འཕྲིན་ཚན་རྩལ་སློབ་གླིང་ལ་པར་དབང་ཆ་ཚང་ཡོད།</p>
+   			<p style="padding-top: 10px;">西藏大学信息科学技术学院版权所有 </p>
+   			<p id="en">Copyright 2011-2025</p> 
+   			<p id="en">E-mail:mt@utibet.edu.cn</p> 
+   			<p>
+			<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1281279626'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1281279626%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1281279626"><a href="https://www.cnzz.com/stat/website.php?web_id=1281279626" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="https://icon.cnzz.com/img/pic.gif"></a></span><script src="https://s9.cnzz.com/z_stat.php?id=1281279626&amp;show=pic" type="text/javascript"></script><script src="https://c.cnzz.com/c.js?web_id=1281279626&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>	
+			</p>
+		
+		</div>
+		<div style="float:left;margin-top:2%;">
+			
+		</div>
+		
+    </div>
+   	</center>
+  
+
+</body></html>

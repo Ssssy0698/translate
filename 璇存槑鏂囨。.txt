@@ -1,0 +1,20 @@
+环境安装
+pip install selenium webdriver-manager
+pip install webdriver-manager
+
+文件位置
+藏语语料放在/tibetan文件夹下面
+结果存放在/result文件夹下
+
+运行
+python final_translate.py tibetan/藏语文件名
+如:
+python final_translate.py tibetan/oral_kham.json
+这样就可以同时多个终端翻译多个文件了
+
+
+----------------------------------------------------
+以下信息不用管
+python final_translate.py tibetan/law.json
+conda activate GA_env
+
