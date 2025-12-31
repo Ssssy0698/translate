@@ -1,0 +1,60 @@
+nohup: ignoring input
+============================================================
+藏语文件翻译处理
+严格按照用户需求:
+1. 读取藏语文件（支持文本和JSON格式）
+2. 使用muban.json作为翻译结果保存格式
+3. leixing字段：文本文件为'不明'，JSON文件使用原type
+4. 自动加id
+5. 藏语原文是tibetan字段，翻译结果是chinese字段
+6. 统计条数，时间统一写2025-12-29
+7. 保存为JSON格式，和muban.json一样
+8. 输出文件命名: '原藏语文件'_result.json
+============================================================
+使用命令行参数指定的文件: tibetan/oral_lhasa_043.json
+
+加载文件: tibetan/oral_lhasa_043.json
+成功加载JSON文件: tibetan/oral_lhasa_043.json
+文件类型: oral_lhasa
+藏语句子数量: 4500
+总字符数: 238711
+文件类型: oral_lhasa
+找到 4500 行需要翻译
+
+创建JSON模板...
+创建初始文件...
+✓ 初始文件已创建: results/oral_lhasa_043_result.json
+  文件位置: /root/myproj/translate/results/oral_lhasa_043_result.json
+
+开始翻译...
+注意: 翻译过程可能需要较长时间，请耐心等待
+首次运行可能会自动下载ChromeDriver
+即时保存: 每翻译一条就保存一条到文件
+============================================================
+初始化翻译器...
+检查必要的Python包...
+✓ selenium已安装 (版本: 4.39.0)
+✓ webdriver-manager已安装
+正在自动下载和管理ChromeDriver...
+✗ WebDriver初始化失败: HTTPConnectionPool(host='localhost', port=48599): Read timed out. (read timeout=120)
+
+详细解决方案:
+============================================================
+1. 安装必要的Python包:
+   pip install selenium webdriver-manager
+
+2. 确保已安装Chrome浏览器:
+   下载地址: https://www.google.com/chrome/
+
+3. 如果已安装但仍有问题，尝试:
+   - 更新Chrome浏览器到最新版本
+   - 手动下载ChromeDriver: https://chromedriver.chromium.org/
+   - 将chromedriver添加到系统PATH
+============================================================
+翻译过程中出错: 无法初始化WebDriver
+
+请确保:
+1. 已安装必要的Python包: pip install selenium webdriver-manager
+2. 已安装Chrome浏览器
+3. 网络连接正常
+错误: 翻译过程失败，没有生成任何条目

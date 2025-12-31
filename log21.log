@@ -1,0 +1,1163 @@
+nohup: ignoring input
+============================================================
+藏语文件翻译处理
+严格按照用户需求:
+1. 读取藏语文件（支持文本和JSON格式）
+2. 使用muban.json作为翻译结果保存格式
+3. leixing字段：文本文件为'不明'，JSON文件使用原type
+4. 自动加id
+5. 藏语原文是tibetan字段，翻译结果是chinese字段
+6. 统计条数，时间统一写2025-12-29
+7. 保存为JSON格式，和muban.json一样
+8. 输出文件命名: '原藏语文件'_result.json
+============================================================
+使用命令行参数指定的文件: tibetan/oral_lhasa_027.json
+
+加载文件: tibetan/oral_lhasa_027.json
+成功加载JSON文件: tibetan/oral_lhasa_027.json
+文件类型: oral_lhasa
+藏语句子数量: 4500
+总字符数: 256719
+文件类型: oral_lhasa
+找到 4500 行需要翻译
+
+创建JSON模板...
+创建初始文件...
+✓ 初始文件已创建: results/oral_lhasa_027_result.json
+  文件位置: /root/myproj/translate/results/oral_lhasa_027_result.json
+
+开始翻译...
+注意: 翻译过程可能需要较长时间，请耐心等待
+首次运行可能会自动下载ChromeDriver
+即时保存: 每翻译一条就保存一条到文件
+============================================================
+初始化翻译器...
+检查必要的Python包...
+✓ selenium已安装 (版本: 4.39.0)
+✓ webdriver-manager已安装
+正在自动下载和管理ChromeDriver...
+✓ ChromeDriver自动配置成功
+✓ WebDriver初始化成功
+开始逐条翻译 4500 行...
+注意: 只访问一次网页，之后重复使用同一个页面进行翻译
+即时保存: 每翻译一条就保存一条到文件
+============================================================
+
+[1/4500] 翻译进度: 0.0%
+藏语原文: ཉན་ཐོས་ཀྱིས་ལ་སློབ་པར་འདོད་བགྱད།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 1/4500 条
+
+[2/4500] 翻译进度: 0.0%
+藏语原文: རྣམ་མཁྱེན་གྱིས་དུས་གསུམ་ཅིག་ཅར་དུ་རྟོགས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 2/4500 条
+
+[3/4500] 翻译进度: 0.1%
+藏语原文: སློབ་ལམ་ན་ཤེར་ཕྱིན་མེད་པར་བྲལ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 3/4500 条
+
+[4/4500] 翻译进度: 0.1%
+藏语原文: རྩྭ་པར་འདོད་ན།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 4/4500 条
+
+[5/4500] 翻译进度: 0.1%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 5/4500 条
+
+[6/4500] 翻译进度: 0.1%
+藏语原文: མཐོང་བ་ལ་སོགས་པའི་ཡཚན་ཉིད་བྱས་གྱི་ལམ་ལ་ཡང་ཤེས་རབ་ཀ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 6/4500 条
+
+[7/4500] 翻译进度: 0.2%
+藏语原文: ཞེས་གསུངས་བའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 7/4500 条
+
+[8/4500] 翻译进度: 0.2%
+藏语原文: ངོ་བོའི་ཁྱད་པར་ཡེ་ཤེས་ཡིན་པ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 8/4500 条
+
+[9/4500] 翻译进度: 0.2%
+藏语原文: ཇི་སྙེད་པ་རྟོགས་པའི་ཚུལ་མཁྱེན་གཉིས་ཡོད།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 9/4500 条
+
+[10/4500] 翻译进度: 0.2%
+藏语原文: རྣམ་མཁྱེན་ཡིན་པས་ཁྱབ་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 10/4500 条
+
+[11/4500] 翻译进度: 0.2%
+藏语原文: བྱས་པ་ལ་ཁོ་ནར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 11/4500 条
+
+[12/4500] 翻译进度: 0.3%
+藏语原文: རྣམ་མཁྱེན་མཁྱེན་གྱི་མཚན་ཉིད་ཡིན་ཏེ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 12/4500 条
+
+[13/4500] 翻译进度: 0.3%
+藏语原文: རྣམ་མཁྱེན་གྱི་མཚན་ཉིད་དུ་འཇོག་དེའ་དབྱེན།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 13/4500 条
+
+[14/4500] 翻译进度: 0.3%
+藏语原文: ཤེས་བྱའི་རྣམ་པ་མ་ལུས་ཕོ་མཁྱེན་པའི་རྣམ་མཁྱེན་དང་།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 14/4500 条
+
+[15/4500] 翻译进度: 0.3%
+藏语原文: རྒྱུ་འབྲས་ཀྱི་གཙོ་བོའི་དོན་བདུན་ཅུ་མཁྱེན་པའི་རྣམ་མ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 15/4500 条
+
+[16/4500] 翻译进度: 0.4%
+藏语原文: གླིང་གསུམ་ན་འཕྱེན་པར་བྱེད་ཀྱི།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 16/4500 条
+
+[17/4500] 翻译进度: 0.4%
+藏语原文: ཞེས་པ་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 17/4500 条
+
+[18/4500] 翻译进度: 0.4%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར་ན་མ་ཁྱབ་སྟེ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 18/4500 条
+
+[19/4500] 翻译进度: 0.4%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 19/4500 条
+
+[20/4500] 翻译进度: 0.4%
+藏语原文: མྱུར་སྤྱོགས་སྤྱོད་འབྲོང་པ་ལ་ཞི་ལྷག་ཟུང་འབྲེལ་ཐོབ་ད...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 20/4500 条
+
+[21/4500] 翻译进度: 0.5%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 21/4500 条
+
+[22/4500] 翻译进度: 0.5%
+藏语原文: བྱང་སེམས་ཀྱི་སྡོམ་པ་སྐྱེ་བའི་རྟེན་དུ་མཁྱེན་རུང་བའི...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 22/4500 条
+
+[23/4500] 翻译进度: 0.5%
+藏语原文: ལྷ་དང་ཀླུ་སོགས་ལུས་དང་བསམ་པའི་སྒོ་ནས་སྨོན་སེམས་བསྐ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 23/4500 条
+
+[24/4500] 翻译进度: 0.5%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 24/4500 条
+
+[25/4500] 翻译进度: 0.6%
+藏语原文: ཐབྲུ་ཁྱད་པར་ཅན་གྱི་རྟོགས་རིགས་སུ་གནས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 25/4500 条
+
+[26/4500] 翻译进度: 0.6%
+藏语原文: གཞན་དོན་དུ་ངོ་བོ་ཉིདསྐུ་ཐོབ་པར་འདོད་པའི་བློ་ཞིག་གཞ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 26/4500 条
+
+[27/4500] 翻译进度: 0.6%
+藏语原文: ཅེ་སར་མ་ཆུད་པ་རྣམས་ལ་ཡོད་བྱདཆུབ་སེམས་དཔའི་སྡོ་ཡོད་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 27/4500 条
+
+[28/4500] 翻译进度: 0.6%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 28/4500 条
+
+[29/4500] 翻译进度: 0.6%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 29/4500 条
+
+[30/4500] 翻译进度: 0.7%
+藏语原文: ཅེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 30/4500 条
+
+[31/4500] 翻译进度: 0.7%
+藏语原文: དེའིརྒྱུད་ལ་ཀུན་རྫོབ་དངོས་ཡུལ་དུ་བྱེད་པའམཁྱེན་པ་མེ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 31/4500 条
+
+[32/4500] 翻译进度: 0.7%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 32/4500 条
+
+[33/4500] 翻译进度: 0.7%
+藏语原文: དེའདུས་བྱས་མིརྟག་པར་འདོད་པའི་གང་ཟག་ཡིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 33/4500 条
+
+[34/4500] 翻译进度: 0.8%
+藏语原文: གཉིས་པར་འཆད་དོ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 34/4500 条
+
+[35/4500] 翻译进度: 0.8%
+藏语原文: ཞེས་གསུངས་པའིཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 35/4500 条
+
+[36/4500] 翻译进度: 0.8%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 36/4500 条
+
+[37/4500] 翻译进度: 0.8%
+藏语原文: ཞེསགསུངས།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 37/4500 条
+
+[38/4500] 翻译进度: 0.8%
+藏语原文: བྱང་སེམས་འཕགས་པའི་རྒྱུད་ལཐེག་ཆེན་སེམས་བསདཔ་ཡིད་ཀྱི...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 38/4500 条
+
+[39/4500] 翻译进度: 0.9%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིན།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 39/4500 条
+
+[40/4500] 翻译进度: 0.9%
+藏语原文: དེས་ན་སྐབས་འདིར་དངོས་སུ་བསྟན་པའིསེམས་བསྐྱེད་དང་པོ་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 40/4500 条
+
+[41/4500] 翻译进度: 0.9%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 41/4500 条
+
+[42/4500] 翻译进度: 0.9%
+藏语原文: ཐེག་ཆེན་སེམས་བསྐྱེད་ཀྱི་ཆེད་དུ་གཉེར་བྱ་འཐོབ་པའི་ཐབ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 42/4500 条
+
+[43/4500] 翻译进度: 1.0%
+藏语原文: ཞེས་གསུངསཔའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 43/4500 条
+
+[44/4500] 翻译进度: 1.0%
+藏语原文: ཅེསགསུངས་པའི་ཕྱིར་ཟེར་ན།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 44/4500 条
+
+[45/4500] 翻译进度: 1.0%
+藏语原文: དགམ་སྨྲས་པར་བསྟན་བཅོས་རྩོམ་པ་མེད་པར་བྲལ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 45/4500 条
+
+[46/4500] 翻译进度: 1.0%
+藏语原文: སྒྲ་ཡིན་ན་ངག་ཡིན་པས་ཁྱབ་པར་ཐུལ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 46/4500 条
+
+[47/4500] 翻译进度: 1.0%
+藏语原文: བྱདཆེན་ཤེར་ཕྱེདལ་སྤྱོད་པའི་ཚེ་གཟུགས་ལ་རྣམ་པ་ཐམས་ཅད...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 47/4500 条
+
+[48/4500] 翻译进度: 1.1%
+藏语原文: འདུས་མ་བྱས་སོགས་ཡོན་ཏནརྒྱད་དང་ལྡན་པའི་སྐྱབས་གནས་གཞ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 48/4500 条
+
+[49/4500] 翻译进度: 1.1%
+藏语原文: ཐེག་ཆེན་འཕགས་པའི་མཁྱེན་པ་ཡིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 49/4500 条
+
+[50/4500] 翻译进度: 1.1%
+藏语原文: དེས་སྐྱབས་གནས་ལ་ཐེ་ཚོམ་ཟ་བའི་ཐེ་ཚོམ་གྱི་ས་བོན་ཟད་པ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 50/4500 条
+
+[51/4500] 翻译进度: 1.1%
+藏语原文: ཡིད་ཀྱི་རྣམ་པར་ཤེས་པ་གང་ཟག་ཡིན་པའི་ཕྱིར་ཏེ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 51/4500 条
+
+[52/4500] 翻译进度: 1.2%
+藏语原文: ཤེས་རབ་སྒྲོན་ལ་ལས་རྣམ་པར་ཤེས་པ་བདག་ཏུ་ཁས་བླངས་ནས་ད...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 52/4500 条
+
+[53/4500] 翻译进度: 1.2%
+藏语原文: དེའི་པར་འཆད་དོ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 53/4500 条
+
+[54/4500] 翻译进度: 1.2%
+藏语原文: དེ་ནས་བཟུང་སྟེ་དེ་ནི་ཐོབ་པར་གྱུརལ་ཡི།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 54/4500 条
+
+[55/4500] 翻译进度: 1.2%
+藏语原文: དོན་དམ་པའི་སྐྱབས་ཀྱི་ཁྱད་པར་མི་སྟོན་ལ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 55/4500 条
+
+[56/4500] 翻译进度: 1.2%
+藏语原文: དངོསཔོའིགནསཚོད་ལ་ལམ་གྱི་བགྲོད་པ་མཐར་མ་ཐུག་པའི་སྐྱབ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 56/4500 条
+
+[57/4500] 翻译进度: 1.3%
+藏语原文: འདུས་བྱས་ཡིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 57/4500 条
+
+[58/4500] 翻译进度: 1.3%
+藏语原文: འདུས་བྱས་ཡིན་པའིཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 58/4500 条
+
+[59/4500] 翻译进度: 1.3%
+藏语原文: འདུས་བྱས་ཡིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 59/4500 条
+
+[60/4500] 翻译进度: 1.3%
+藏语原文: དེརང་དུས་སུ་ས་བོན་ལསརྫོགས་པར་གྲུབ་ཟིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 60/4500 条
+
+[61/4500] 翻译进度: 1.4%
+藏语原文: ཞེས་གསུངས།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 61/4500 条
+
+[62/4500] 翻译进度: 1.4%
+藏语原文: བྱང་སེམས་རྒྱུནམཐའ་བ་ལ་སྐྱེ་བཞིན་པའི་རྣམ་མཁྱེན་ཡོད་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 62/4500 条
+
+[63/4500] 翻译进度: 1.4%
+藏语原文: དེ་ད་ལྟར་གྱི་དུས་སུ་སྟོན་པ་ཤ་ཀྱ་ཐུབ་པར་གྱུར་པ་ཡིན་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 63/4500 条
+
+[64/4500] 翻译进度: 1.4%
+藏语原文: དེ་སྟོན་པ་ཤཱཀྱ་ཐུབ་པར་གྱུར་བའི་དུས་ཡོད་པའོ་ན།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 64/4500 条
+
+[65/4500] 翻译进度: 1.4%
+藏语原文: དེའི་ཚེ་རྣམ་མཁྱེན་ཡིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 65/4500 条
+
+[66/4500] 翻译进度: 1.5%
+藏语原文: ཇི་ལྟ་བ་མཁྱེན་པའི་རྣམ་མཁྱེན་ཀྱི་རྙེད་དོན་ཡིན་པའི་ཕ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 66/4500 条
+
+[67/4500] 翻译进度: 1.5%
+藏语原文: ཐེག་ཆེན་གྱི་མཐོང་ལམ་པར་ཆད་མེད་ལམ་གྱི་དངོས་ཀྱི་གཞལ་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 67/4500 条
+
+[68/4500] 翻译进度: 1.5%
+藏语原文: དེའི་ཤུགས་གཞལ་ཡིན་པར་ཐུལ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 68/4500 条
+
+[69/4500] 翻译进度: 1.5%
+藏语原文: ལྟ་བ་རྟོཊ་པའི་ལམཁྱེན་གྱི་རྙེད་དོན་ཡིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 69/4500 条
+
+[70/4500] 翻译进度: 1.6%
+藏语原文: དོན་དམ་བདེན་པ་ཡིན་པར་བྲལ་མཐར་ཐུག་དཔྱོད་པའི་རིགས་ཤི...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 70/4500 条
+
+[71/4500] 翻译进度: 1.6%
+藏语原文: དོནཱདམ་བདེན་པའི་མཚན་ཉིད་དང་པོའི་ཟུར་དུ་སྒྲུབ་པའི་ར...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 71/4500 条
+
+[72/4500] 翻译进度: 1.6%
+藏语原文: ཇི་ལྟ་བ་མཁྱེན་པའི་རྣམ་མཁྱེན་གྱིས་གཉིསསྣང་ནུབ་པའི་ས...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 72/4500 条
+
+[73/4500] 翻译进度: 1.6%
+藏语原文: ཇི་སྙེད་པམཁྱེན་པའི་རྣམ་མཁྱེན་གྱིས་གཉིས་སྣང་དངབཅས་པ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 73/4500 条
+
+[74/4500] 翻译进度: 1.6%
+藏语原文: ཀུན་རྫོབ་བདེན་པའི་མཚན་མངོན་སུམ་ལ་སྣང་བ་ལྟར་དོན་བྱེ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 74/4500 条
+
+[75/4500] 翻译进度: 1.7%
+藏语原文: ཁྱེདཀྱིས་ཇིསྙེད་པ་མཁྱེན་པའི་རྣམ་མཁྱེན་དེ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 75/4500 条
+
+[76/4500] 翻译进度: 1.7%
+藏语原文: ཡང་དག་པ་དང་ཡང་དག་པ་མ་ཡིན་པར་རྟོགས་སོ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 76/4500 条
+
+[77/4500] 翻译进度: 1.7%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 77/4500 条
+
+[78/4500] 翻译进度: 1.7%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 78/4500 条
+
+[79/4500] 翻译进度: 1.8%
+藏语原文: ཀུན་རྫོབ་བདེན་པ་གང་ཞིག་དང་སྣང་ཡུལ་དུ་བྱེད་པའི་བློ་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 79/4500 条
+
+[80/4500] 翻译进度: 1.8%
+藏语原文: བདེན་མེད་མརྟོགས་པའི་སྔ་རོལ་དུ་རང་ཉིད་ལ་སྣང་བ་ལྟར་མ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 80/4500 条
+
+[81/4500] 翻译进度: 1.8%
+藏语原文: གཟུགས་སྣང་བ་ལྟར་དུ་མ་གྲུབ་པར་ཚདམས་རྟོགས་པའི་གང་ཟག་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 81/4500 条
+
+[82/4500] 翻译进度: 1.8%
+藏语原文: བདེན་མེད་མ་རྟོགས་པའི་སྔ་རོལ་དུ་གཟུགས་སྣང་བ་ལྟརམ་གྲ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 82/4500 条
+
+[83/4500] 翻译进度: 1.8%
+藏语原文: གཟུགས་སྣང་བ་ལྟར་མེད་པར་བོདམས་ངེས་པའི་གང་ཟག་ཡིན་པའི...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 83/4500 条
+
+[84/4500] 翻译进度: 1.9%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 84/4500 条
+
+[85/4500] 翻译进度: 1.9%
+藏语原文: འདུས་བྱསཡིནན།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 85/4500 条
+
+[86/4500] 翻译进度: 1.9%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 86/4500 条
+
+[87/4500] 翻译进度: 1.9%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 87/4500 条
+
+[88/4500] 翻译进度: 2.0%
+藏语原文: གཞི་དེ་ཀུན་རྫོབ་ཀྱི་བདེན་པར་གྲུབཔ་ལ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 88/4500 条
+
+[89/4500] 翻译进度: 2.0%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།་
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 89/4500 条
+
+[90/4500] 翻译进度: 2.0%
+藏语原文: མ་འོངས་པ་ཡིན་པར་བྲལ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 90/4500 条
+
+[91/4500] 翻译进度: 2.0%
+藏语原文: ཡང་དག་ཀུན་རྫོབ་དང་ལོག་པའི་ཀུན་རྫོབ་གྲྭདརུང་གང་ཞིག་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 91/4500 条
+
+[92/4500] 翻译进度: 2.0%
+藏语原文: རང་སྣང་ཡུལ་དུ་བྱེད་པའི་བློ་ལ་སྣང་བ་ལྟར་མ་གྲུབ་པར་འ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 92/4500 条
+
+[93/4500] 翻译进度: 2.1%
+藏语原文: རང་མངོན་སུམ་དུ་རྟོགས་པའི་མངོན་སུམ་གྱི་ཁྲོད་མས་གཉིས...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 93/4500 条
+
+[94/4500] 翻译进度: 2.1%
+藏语原文: ཀུན་རྫོབ་བདེན་པ་ཡང་ཡིན་རང་སྣང་ཡུ་ལ་དུ་བྱེད་པའི་བློ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 94/4500 条
+
+[95/4500] 翻译进度: 2.1%
+藏语原文: ལོག་པརྗེ་ཀུན་རྫོབ་ཀྱི་མཚན་ཉིད།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 95/4500 条
+
+[96/4500] 翻译进度: 2.1%
+藏语原文: དེས་གཉིས་སྣང་དང་བཅས་པའི་རྒྱལ་གྱིས་རྟོགས་པར་བྱ་བ་མ་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 96/4500 条
+
+[97/4500] 翻译进度: 2.2%
+藏语原文: རང་ཉམས་སུ་མྱོང་པའི་རང་རིགམངོན་སུམ་གྱིས་གཉིས་སྣང་ནུ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 97/4500 条
+
+[98/4500] 翻译进度: 2.2%
+藏语原文: རྣམ་མཁྱེན་ཡིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 98/4500 条
+
+[99/4500] 翻译进度: 2.2%
+藏语原文: འདི་ལན་སྐབས་གཉིས་པར་ཤེས་པར་བྱའོ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 99/4500 条
+
+[100/4500] 翻译进度: 2.2%
+藏语原文: ཅེས་གསུངས་བའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 100/4500 条
+
+[101/4500] 翻译进度: 2.2%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 101/4500 条
+
+[102/4500] 翻译进度: 2.3%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 102/4500 条
+
+[103/4500] 翻译进度: 2.3%
+藏语原文: དེལྟར་ཀུན་བཏུས་ཀྱི་འགྲེལ་བ་རྒྱལ་སྲས་མ་ལཾས་གསུངས་པའ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 103/4500 条
+
+[104/4500] 翻译进度: 2.3%
+藏语原文: དེ་མ་ཡིན་པར་བུ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 104/4500 条
+
+[105/4500] 翻译进度: 2.3%
+藏语原文: འཕགས་རྒྱུད་ཀྱི་མཁྱེན་པ་ཡིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 105/4500 条
+
+[106/4500] 翻译进度: 2.4%
+藏语原文: ཡོངས་སུ་དག་པའི་འཇིག་རྟེན་གྱི་ཁམས་དེ་དགནིསྡུག་བསྔལ་...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 106/4500 条
+
+[107/4500] 翻译进度: 2.4%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 107/4500 条
+
+[108/4500] 翻译进度: 2.4%
+藏语原文: དེ་ལྟར་གསུངས་པའི་དོན་ནི།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 108/4500 条
+
+[109/4500] 翻译进度: 2.4%
+藏语原文: སྡུག་བདེན་དང་འཕགས་རྒྱུད་ཀྱི་མཁྱེན་པ་ག་ལ་བའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 109/4500 条
+
+[110/4500] 翻译进度: 2.4%
+藏语原文: ངེས་པའི་རྒྱུན་ཞུགས་སྲིད་པལན་བདུན་པཔའིརྒྱུད་ཀྱི་ཡིད...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 110/4500 条
+
+[111/4500] 翻译进度: 2.5%
+藏语原文: བབས་བཅུ་གསུམ་སཾ་པའི་རྒྱུན་བཞུགས་སྲིད་པ་ལན་བདུན་པ་བ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 111/4500 条
+
+[112/4500] 翻译进度: 2.5%
+藏语原文: ཡིད་ཀྱི་རྣམ་པར་ཤེས་པ་གང་ཟག་ཡིན་པའིཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 112/4500 条
+
+[113/4500] 翻译进度: 2.5%
+藏语原文: ཉན་ཐོས་སྦྱོར་ལམ་པ་སྡུག་བསྡལ་བྲདེན་པ་ཡིན་བྱས་པ་ལ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 113/4500 条
+
+[114/4500] 翻译进度: 2.5%
+藏语原文: སྤང་བྱ་ཡིན་པར་ཁྲུལ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 114/4500 条
+
+[115/4500] 翻译进度: 2.6%
+藏语原文: འགོག་པ་རྟེན་འཐོབ་བྱེད་ཀྱི་ལམ་གྱི་རིགས་སུ་གནས་པའི་འ...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 115/4500 条
+
+[116/4500] 翻译进度: 2.6%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 116/4500 条
+
+[117/4500] 翻译进度: 2.6%
+藏语原文: བྱང་འཕགསཀྱི་རྒྱུད་ལ་སྡུག་བསྔལ་བདེན་པ་ཡོད་པར་ཞུ།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 117/4500 条
+
+[118/4500] 翻译进度: 2.6%
+藏语原文: སྡུག་པ་མེད་པའི་ལས་ཀྱདསྤུངས་ནས་སླར་མི་ལྡང་བའི་ཚུལ་ག...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 118/4500 条
+
+[119/4500] 翻译进度: 2.6%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 119/4500 条
+
+[120/4500] 翻译进度: 2.7%
+藏语原文: རྣམ་པར་ཤེས་པའི་ཁམས་ལྔ་ཡིན།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 120/4500 条
+
+[121/4500] 翻译进度: 2.7%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 121/4500 条
+
+[122/4500] 翻译进度: 2.7%
+藏语原文: སྒྲིབ་གཉིས་ཟདཔརསྤངསཔའི་གང་ཟག་ཡིན་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 122/4500 条
+
+[123/4500] 翻译进度: 2.7%
+藏语原文: ཀུན་ལ་བྱུང་བདེན་པར་གྱུར་པའི་སེམས་བྱུང་དང་མཚུངས་ལྡན...
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 123/4500 条
+
+[124/4500] 翻译进度: 2.8%
+藏语原文: ཞེས་གསུངས་པའི་ཕྱིར།
+页面未初始化，正在初始化...
+正在访问: http://222.19.82.141:5002/index-Final.html
+初始化页面时出错: HTTPConnectionPool(host='localhost', port=41107): Read timed out. (read timeout=120)
+页面初始化失败
+✗ 翻译失败，跳过此行
+✓ 已保存到文件: 124/4500 条
+
+[125/4500] 翻译进度: 2.8%
+藏语原文: སྐྱེབའི་གནས་ཀྱི་ཀྱང་རིམ་པར་བྱའོ།
